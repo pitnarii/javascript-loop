@@ -2,9 +2,7 @@
 let companyName = "TechUp";
 
 // Start coding here
-let i = 0;
-while (i < companyName.length) {
-    console.log(`Number ${i+1} character is ${companyName[i]}`);
-    i++
+for (let i = 0; i < companyName.length; i++) {
+    console.log(`Number ${i} character is ${companyName[i]}`)
 }
 
